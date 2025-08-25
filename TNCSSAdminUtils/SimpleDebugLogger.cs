@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using TNCSSPluginFoundation.Configuration;
 using TNCSSPluginFoundation.Models.Logger;
 
-namespace TNCSSPluginTemplate;
+namespace TNCSSAdminUtils;
 
 public sealed class SimpleDebugLogger : AbstractDebugLoggerBase
 {
@@ -22,10 +22,10 @@ public sealed class SimpleDebugLogger : AbstractDebugLoggerBase
     public override bool PrintToAdminClientsConsole => PrintToAdminClientsConsoleConVar.Value;
     public override string RequiredFlagForPrintToConsole => RequiredFlagForPrintToConsoleConVar.Value;
 
-    public override string LogPrefix => "[TNCSSPluginTemplate]";
+    public override string LogPrefix => "[TNCSSAdminUtils]";
 
     
-    private const string ModuleName = "DebugLoggerTNCSSPluginTemplate";
+    private const string ModuleName = "DebugLoggerTNCSSAdminUtils";
     
     public SimpleDebugLogger(IServiceProvider serviceProvider)
     {

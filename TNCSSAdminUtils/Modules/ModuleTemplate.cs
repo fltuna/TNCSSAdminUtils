@@ -1,10 +1,10 @@
 ﻿using TNCSSPluginFoundation.Models.Plugin;
 
-namespace TNCSSPluginTemplate.Modules;
+namespace TNCSSAdminUtils.Modules;
 
 public class ModuleTemplate(IServiceProvider serviceProvider) : PluginModuleBase(serviceProvider)
 {
-    public override string PluginModuleName => "TNCSSPluginTemplateModule";
+    public override string PluginModuleName => "TNCSSAdminUtilsModule";
     public override string ModuleChatPrefix => string.Empty;
     protected override bool UseTranslationKeyInModuleChatPrefix => false;
 

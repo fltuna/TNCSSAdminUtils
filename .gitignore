@@ -1,5 +1,5 @@
-TNCSSPluginTemplate/obj/*
-TNCSSPluginTemplate/bin/*
+TNCSSAdminUtils/obj/*
+TNCSSAdminUtils/bin/*
 
 .idea
 ./*.sln.DotSettings.user

@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using TNCSSPluginFoundation;
-using TNCSSPluginTemplate.Modules;
+using TNCSSAdminUtils.Modules;
 
-namespace TNCSSPluginTemplate;
+namespace TNCSSAdminUtils;
 
-public sealed class TNCSSPluginTemplate: TncssPluginBase
+public sealed class TNCSSAdminUtils: TncssPluginBase
 {
-    public override string ModuleName => "TNCSSPluginTemplate";
+    public override string ModuleName => "TNCSSAdminUtils";
     public override string ModuleVersion => "0.0.1";
     
     public override string BaseCfgDirectoryPath => "unused";

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNCSSPluginTemplate", "TNCSSPluginTemplate\TNCSSPluginTemplate.csproj", "{9AAFE848-417E-47E5-B393-EFBD2B6E3D82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNCSSAdminUtils", "TNCSSAdminUtils\TNCSSAdminUtils.csproj", "{9AAFE848-417E-47E5-B393-EFBD2B6E3D82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
