@@ -1,18 +1,19 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using TNCSSAdminUtils.Modules.InGameManagement;
+using TNCSSAdminUtils.Modules.UserManagement;
 using TNCSSPluginFoundation;
-using TNCSSAdminUtils.Modules;
 
 namespace TNCSSAdminUtils;
 
-public sealed class TNCSSAdminUtils: TncssPluginBase
+public sealed class TncssAdminUtils: TncssPluginBase
 {
     public override string ModuleName => "TNCSSAdminUtils";
     public override string ModuleVersion => "0.0.1";
     
     public override string BaseCfgDirectoryPath => "unused";
-    public override string ConVarConfigPath => "";
-    public override string PluginPrefix => "[]";
-    public override bool UseTranslationKeyInPluginPrefix => false;
+    public override string ConVarConfigPath => "TncssAdminUtils/convars.cfg";
+    public override string PluginPrefix => "Plugin.Prefix";
+    public override bool UseTranslationKeyInPluginPrefix => true;
 
     protected override void RegisterRequiredPluginServices(IServiceCollection collection, IServiceProvider provider)
     {
@@ -21,6 +22,7 @@ public sealed class TNCSSAdminUtils: TncssPluginBase
 
     protected override void TncssOnPluginLoad(bool hotReload)
     {
-        RegisterModule<ModuleTemplate>();
+        RegisterModule<InGamePlayerManagementCommands>();
+        RegisterModule<UserManagementCommands>();
     }
 }
