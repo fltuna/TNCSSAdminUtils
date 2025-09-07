@@ -1,1 +1,63 @@
-﻿{}
+﻿{
+    "Plugin.Prefix": "{lime}[TNCSSAU]{default}",
+    "Common.Target.Name.All": "全プレイヤー",
+    "Common.Target.Name.Bots": "Bot",
+    "Common.Target.Name.Humans": "人間",
+    "Common.Target.Name.Alive": "生存プレイヤー",
+    "Common.Target.Name.Dead": "死亡プレイヤー",
+    "Common.Target.Name.CounterTerrorist": "カウンターテロリスト",
+    "Common.Target.Name.Terrorist": "テロリスト",
+    "Common.Target.Name.Spectator": "観戦者",
+    "Common.Name.True": "{green}有効{default}",
+    "Common.Name.False": "{red}無効{default}",
+    "Common.Validation.Failure.Permission": "権限がありません。",
+    "Common.Validation.Failure.ExtendedTarget": "ターゲットが見つかりませんでした",
+    "Common.Validation.Failure.ArgumentOutOfRange": "引数の値が範囲外です。 有効な範囲: {lime}{0}{default}",
+    "Common.Validation.Failure.PathShouldEndWithVmdl": "{darkred}クライアントクラッシュを引き起こすため、パスは必ず{green}.vmdl{darkred}で終わる必要があります!",
+    "Common.Command.Notification.NoPlayersWereAffected": "No players were affected",
+    "Common.Command.Notification.SeeClientConsoleOutput": "コンソールを確認してください",
+    "Respawn.Command.Notification.Usage": "使い方: !respawn <対象>",
+    "Respawn.Command.Broadcast.PlayerRespawned": "{green}管理者 {lime}{0}{default} が {lime}{1}{default} を復活させました",
+    "Respawn.Command.Broadcast.MultiplePlayerRespawned": "{green}管理者 {lime}{0}{default} が {lime}{1}{default}人 を復活させました",
+    "Respawn.Command.Notification.YouHaveRespawned": "{0}によって復活しました",
+    "Respawn.Command.Notification.NoDeadPlayersFound": "死亡したプレイヤーが見つかりませんでした",
+    "SetCash.Command.Notification.Usage": "使い方: !cash <対象> <金額>",
+    "SetCash.Command.Broadcast.SetCash": "{green}管理者 {lime}{0}{default} が {lime}{1}{default} の所持金を {lime}{2}{default} に設定しました",
+    "SetCash.Command.Broadcast.MultipleSetCash": "{green}管理者 {lime}{0}{default} が {lime}{1}{default}人 の所持金を {lime}{2}{default} に設定しました",
+    "SetHealth.Command.Notification.Usage": "使い方: !hp <対象> <HP>",
+    "SetHealth.Command.Broadcast.SetHealth": "{green}管理者 {lime}{0}{default} が {lime}{1}{default} のHPを {lime}{2}{default} に設定しました",
+    "SetHealth.Command.Broadcast.MultipleSetHealth": "{green}管理者 {lime}{0}{default} が {lime}{1}{default}人 のHPを {lime}{2}{default} に設定しました",
+    "SetKevlar.Command.Notification.Usage": "使い方: !setkev <対象> <アーマー値> [ヘルメット? 0|1]",
+    "SetKevlar.Command.Broadcast.SetKevlar": "{green}管理者 {lime}{0}{default} が {lime}{1}{default} のアーマー値を {lime}{2}{default} に設定しました。 ヘルメット: {lime}{3}{default}",
+    "SetKevlar.Command.Broadcast.MultipleSetKevlar": "{green}管理者 {lime}{0}{default} が {lime}{1}{default}人 のアーマー値を {lime}{2}{default} に設定しました。 ヘルメット: {lime}{3}{default}",
+    "SetPlayerClanTag.Command.Notification.Usage": "使い方: !clantag <対象> <名前>",
+    "SetPlayerClanTag.Command.Broadcast.TagChanged": "{green}管理者 {lime}{0}{default} が {lime}{1}{default} のクランタグを {lime}{2}{default} に設定しました",
+    "SetPlayerClanTag.Command.Broadcast.MultipleTagChanged": "{green}管理者 {lime}{0}{default} が {lime}{1}{default}人 のクランタグを {lime}{2}{default} に設定しました",
+    
+    "SetPlayerModel.Command.Notification.Usage": "使い方: !setmodel <対象> <モデルまでのパス>",
+    "SetPlayerModel.Command.Validation.Failure.PathShouldEndWithVmdl": "{red}クライアントクラッシュを引き起こすため、パスは必ず{green}.vmdl{red}で終わる必要があります!",
+    "SetPlayerModel.Command.Broadcast.SetModel": "{green}管理者 {lime}{0}{default} が {lime}{1}{default} のモデルを {lime}{2}{default} に設定しました",
+    "SetPlayerModel.Command.Broadcast.MultipleSetModel": "{green}管理者 {lime}{0}{default} が {lime}{1}{default}人 のモデルを {lime}{2}{default} に設定しました",
+    "GetPlayerModel.Command.Notification.Usage": "使い方: !getmodel <対象>",
+    "GetPlayerModel.Command.Notification.PlayerModel": "{lime}{0}{default} は {green}{1}{default} を使用しています。",
+
+
+    "SetPlayerName.Command.Notification.Usage": "使い方: !rename <対象> <名前>",
+    "SetPlayerName.Command.Broadcast.NameChanged": "{green}管理者 {lime}{0}{default} が {green}{1}{default} の名前を {green}{2}{default} に設定しました",
+    "SetPlayerName.Command.Broadcast.MultipleNameChanged": "{green}管理者 {lime}{0}{default} が {green}{1}{default}人 の名前を {green}{2}{default} に設定しました",
+
+
+    "SetTeam.Command.Notification.Usage": "使い方: !team <対象> <チームID>",
+    "SetTeam.Command.Broadcast.SetTeam": "{green}管理者 {lime}{0}{default} が {lime}{1}{default} のチームを {lime}{2}{default} に移動しました",
+    "SetTeam.Command.Broadcast.MultipleSetTeam": "{green}管理者 {lime}{0}{default} が {lime}{1}{default}人 のチームを {lime}{2}{default} に移動しました",
+
+    "SetTeamName.Command.Notification.Usage": "使い方: !teamname <チームID> <名前>",
+    "SetTeamName.Command.Broadcast.NameChanged": "{green}管理者 {lime}{0}{default} が {green}{1}{default} のチーム名を {green}{2}{default} に設定しました",
+    
+    "TerminateRound.Command.Notification.Terminating": "ラウンドを終了中...",
+
+
+    "ToggleBuyZone.Command.Notification.Usage": "使い方: !buyzone <対象> <0|1>",
+    "ToggleBuyZone.Command.Broadcast.SetStatus": "{green}管理者 {lime}{0}{default} が {lime}{1}{default} のBuyZoneの状態を{lime}{2} に切り替えました",
+    "ToggleBuyZone.Command.Broadcast.MultipleSetStatus": "{green}管理者 {lime}{0}{default} が {lime}{1}{default} のBuyZoneの状態を{lime}{2} に切り替えました"
+}

@@ -1,1 +1,60 @@
-﻿{}
+﻿{
+    "Plugin.Prefix": "{lime}[TNCSSAU]{default}",
+    "Common.Target.Name.All": "All Player",
+    "Common.Target.Name.Bots": "Bot",
+    "Common.Target.Name.Humans": "Human",
+    "Common.Target.Name.Alive": "Alive Player",
+    "Common.Target.Name.Dead": "Dead Player",
+    "Common.Target.Name.CounterTerrorist": "CT",
+    "Common.Target.Name.Terrorist": "T",
+    "Common.Target.Name.Spectator": "Spectator",
+    "Common.Name.True": "{green}True{default}",
+    "Common.Name.False": "{red}False{default}",
+    "Common.Validation.Failure.Permission": "You don't have enough permission to execute this command",
+    "Common.Validation.Failure.ExtendedTarget": "Target not found",
+    "Common.Validation.Failure.ArgumentOutOfRange": "Given argument are out of range. Valid range: {lime}{0}{default}",
+    "Common.Command.Notification.NoPlayersWereAffected": "No players were affected",
+    "Common.Command.Notification.SeeClientConsoleOutput": "See client console output",
+    "Respawn.Command.Notification.Usage": "Usage: !respawn <target>",
+    "Respawn.Command.Broadcast.PlayerRespawned": "{green}Admin {lime}{0}{default} respawned {lime}{1}",
+    "Respawn.Command.Broadcast.MultiplePlayerRespawned": "{green}Admin {lime}{0}{default} respawned {lime}{1}{default} players",
+    "Respawn.Command.Notification.YouHaveRespawned": "You have been respawned by {0}",
+    "Respawn.Command.Notification.NoDeadPlayersFound": "No dead player(s) found",
+    "SetCash.Command.Notification.Usage": "Usage: !cash <target> <amount>",
+    "SetCash.Command.Broadcast.SetCash": "{green}Admin {lime}{0}{default} set {lime}{1}{default}'s cash to {lime}{2}{default}",
+    "SetCash.Command.Broadcast.MultipleSetCash": "{green}Admin {lime}{0}{default} set {lime}{1}{default} players' cash to {lime}{2}{default}",
+    "SetHealth.Command.Notification.Usage": "Usage: !hp <target> <health>",
+    "SetHealth.Command.Broadcast.SetHealth": "{green}Admin {lime}{0}{default} set {lime}{1}{default}'s health to {lime}{2}{default}",
+    "SetHealth.Command.Broadcast.MultipleSetHealth": "{green}Admin {lime}{0}{default} set {lime}{1}{default} player's health to {lime}{2}{default}",
+    "SetKevlar.Command.Notification.Usage": "Usage: !kev <target> <amount> [hasHelmet? 0|1] ",
+    "SetKevlar.Command.Broadcast.SetKevlar": "{green}Admin {lime}{0}{default} set {lime}{1}{default}'s kevler to {lime}{2}{default}. Helmet: {lime}{3}{default}",
+    "SetKevlar.Command.Broadcast.MultipleSetKevlar": "{green}Admin {lime}{0}{default} set {lime}{1}{default} player's kevler to {lime}{2}{default}. Helmet: {lime}{3}{default}",
+    "SetPlayerClanTag.Command.Notification.Usage": "Usage: !clantag <target> <name>",
+    "SetPlayerClanTag.Command.Broadcast.TagChanged": "{green}Admin {lime}{0}{default} changed {lime}{1}{default}'s clan tag to {lime}{2}",
+    "SetPlayerClanTag.Command.Broadcast.MultipleTagChanged": "{green}Admin {lime}{0}{default} changed {lime}{1}{default} player's clan tag to {lime}{2}",
+    
+    "SetPlayerModel.Command.Notification.Usage": "Usage: !setmodel <target> <modelPath>",
+    "SetPlayerModel.Command.Validation.Failure.PathShouldEndWithVmdl": "{red}The path should be end with {green} .vmdl{red} otherwise all clients in the server will crash!",
+    "SetPlayerModel.Command.Broadcast.SetModel": "{green}Admin {lime}{0}{default} set {lime}{1}{default}'s model to {lime}{2}",
+    "SetPlayerModel.Command.Broadcast.MultipleSetModel": "{green}Admin {lime}{0}{default} set {lime}{1}{default} player's model to {lime}{2}",
+    "GetPlayerModel.Command.Notification.Usage": "Usage: !getmodel <target>",
+    "GetPlayerModel.Command.Notification.PlayerModel": "{lime}{0}{default} is using {green}{1}",
+
+
+    "SetPlayerName.Command.Notification.Usage": "Usage: !rename <target> <name>",
+    "SetPlayerName.Command.Broadcast.NameChanged": "{green}Admin {lime}{0}{default} changed {green}{1}{default}'s name to {green}{2}",
+    "SetPlayerName.Command.Broadcast.MultipleNameChanged": "{green}Admin {lime}{0}{default} changed {green}{1}{default} player's name to {green}{2}",
+
+    "SetTeam.Command.Notification.Usage": "Usage: !team <target> <teamID>",
+    "SetTeam.Command.Broadcast.SetTeam": "{green}Admin {lime}{0}{default} moved {lime}{1}{default} to {lime}{2}",
+    "SetTeam.Command.Broadcast.MultipleSetTeam": "{green}Admin {lime}{0}{default} moved {lime}{1}{default} player's to {lime}{2}",
+    
+    "SetTeamName.Command.Notification.Usage": "Usage: !teamname <teamID> <name>",
+    "SetTeamName.Command.Broadcast.NameChanged": "{green}Admin {lime}{0}{default} changed {green}{1}{default} team name to {green}{2}",
+
+    "TerminateRound.Command.Notification.Terminating": "Terminating round...",
+
+    "ToggleBuyZone.Command.Notification.Usage": "Usage: !buyzone <target> <0|1>",
+    "ToggleBuyZone.Command.Broadcast.SetStatus": "{green}Admin {lime}{0}{default} set {lime}{1}{default}'s BuyZone status to {lime}{2}",
+    "ToggleBuyZone.Command.Broadcast.MultipleSetStatus": "{green}Admin {lime}{0}{default} set {lime}{1}{default} player's BuyZone status to {lime}{2}"
+}
